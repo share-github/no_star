@@ -1,0 +1,16 @@
+{
+    "name": "no-star",
+    "version": "1.0.0",
+    "manifest_version": 2,
+    "description": "スターを押させない",
+    "content_scripts": [
+        {
+            "matches": [
+                "https://backlog.com/*"
+            ],
+            "js": [
+                "sample.js"
+            ]
+        }
+    ]
+}
